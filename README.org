@@ -1,0 +1,13 @@
+* Pluck
+Emacs extension for capturing documentation for files. Pluck is designed primarily for programmers as an alternative for capturing notes about source code to the standard code cluttering comments. 
+
+** Motivation
+I use org-capture currently for taking notes about things done in code. I've noticed lately that the integrity of the capture is quickly broken after making changes to the original source.
+
+Pluck aims to deal with this problem by linking the captured region in the source with the file that the capture is being sent to. Capture regions are exposed in the editor when viewing source, and notes on a region can quickly be accessed and updated by entering the region and performing =<SOME-KEY-PRESS>=.
+
+The "plucked" region will be configurable to a variety of file types, =.org | .tex | .md= so images can be added and all options for exporting will be available depending on the file type.
+
+
+
+
